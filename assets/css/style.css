@@ -25,11 +25,13 @@ h1, h2 {
     color: black;
     background-color: aqua;
     border: 1px transparent;
+    text-align: center;
 }
 
 .btn--start:active, .btn--start:hover {
     background-color: magenta;
 }
+
 
 /* footer styling */
 footer {
