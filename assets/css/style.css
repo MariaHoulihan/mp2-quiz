@@ -20,8 +20,8 @@ h1, h2 {
     text-align: center;
 }
 
-/* start quiz button styling */
-.btn--start {
+/* start quiz button and next button styling */
+.btn--start, #next-q {
     color: black;
     background-color: aqua;
     border: 1px transparent;
@@ -32,6 +32,9 @@ h1, h2 {
     background-color: magenta;
 }
 
+#next-q:active, #next-q:hover {
+    background-color: magenta;
+}
 
 /* footer styling */
 footer {
