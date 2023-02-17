@@ -81,10 +81,5 @@ let questions = [
         }  
       ];
 
-      let questionContainer = document.getElementById('question-area');
-      let startButton = document.getElementById('start-button');
-      let nextButton = document.getElementById('next-q');
-
-      console.log(questionContainer);
-      console.log(questions);
-
+console.log(questions)      
+console.log(questions[1].answer)
