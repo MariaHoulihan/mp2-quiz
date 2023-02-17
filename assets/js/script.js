@@ -83,3 +83,12 @@ let questions = [
 
 console.log(questions)      
 console.log(questions[1].answer)
+
+for (let i = 0; i < questions.length; i++) {
+  let temp = questions[i];
+  let r = Math.floor(Math.random() * questions.length);
+  questions[i] = questions[r];
+  questions[r] = temp;
+}
+
+console.log('questions');
